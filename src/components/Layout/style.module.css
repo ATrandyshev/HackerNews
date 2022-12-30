@@ -1,0 +1,17 @@
+.layout_header,
+.layout_footer {
+  text-align: center;
+  color: #fff;
+  background-color: #2d5071;
+}
+
+.layout {
+  min-height: 100vh;
+}
+
+.layout_content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 40px;
+}

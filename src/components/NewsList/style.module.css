@@ -1,0 +1,19 @@
+.newsList {
+  width: 100%;
+}
+
+.newsList__item {
+  cursor: pointer;
+  transition: background-color 1.5s ease;
+}
+
+.newsList__item_hover:hover {
+  background-color: #0089f2;
+}
+
+.newsList__buttonRefresh {
+  z-index: 100;
+  position: fixed;
+  bottom: 100px;
+  right: 10px;
+}

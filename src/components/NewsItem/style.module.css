@@ -1,0 +1,33 @@
+.newsItem {
+  width: 100%;
+}
+
+.newsItem__titleWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  border-bottom: 1px solid gray;
+}
+
+.newsItem__button {
+  margin: 0px 30px 10px 0px;
+}
+
+.newsItem__content {
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: row;
+  justify-content: start;
+  margin-top: 20px;
+  border-bottom: 1px solid gray;
+}
+
+.newsItem__contentAuthor {
+  width: 30%;
+}
+
+.newsItem__contenText {
+  width: 100%;
+  padding-left: 10px;
+}

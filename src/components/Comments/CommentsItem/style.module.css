@@ -1,0 +1,9 @@
+.comment_item {
+  list-style-type: none;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.comment_loadSubComment {
+  margin-top: 15px;
+}
